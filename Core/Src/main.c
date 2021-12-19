@@ -184,12 +184,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  /*
+
 	  //RELAY
-	  HAL_GPIO_TogglePin(RELAY_1_GPIO_Port, RELAY_1_Pin);
-	  HAL_GPIO_TogglePin(RELAY_2_GPIO_Port, RELAY_2_Pin);
+	  HAL_GPIO_TogglePin(RELAY_1_GPIO_Port, RELAY_1_Pin); //legalsó feletti
+	  HAL_GPIO_TogglePin(RELAY_2_GPIO_Port, RELAY_2_Pin);	//legalsó
 	  HAL_Delay(2000);
-	  */
+
 
 	  /*
 	  //SERVO
@@ -207,12 +207,13 @@ int main(void)
 	  }
 	  */
 
-
+	  	 /*
 	  //STEPPER
 	  Step(200, 0);
 	  HAL_Delay(1000);
 	  Step(400, 1);
 	  HAL_Delay(1000);
+	  */
 
 
     /* USER CODE END WHILE */
